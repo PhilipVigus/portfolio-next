@@ -1,14 +1,10 @@
 .screen {
     background: hsl(154 50% 5%);
     color: hsl(154 84% 70%);
-    text-shadow: 0 0 4px hsl(154 84% 70%);
-    font-family: monospace;
-    font-size: 16px;
-}
-
-.pre {
-    margin: 10vh auto auto;
-    display: table;
+    text-shadow: 0 0 0.2em hsl(154 84% 70%);
+    font-size: 2.5em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .glare {
