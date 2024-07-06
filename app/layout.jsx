@@ -32,6 +32,8 @@ export default function RootLayout({ children }) {
             <div className="w-full h-full flex flex-col justify-center box-border bg-transparent z-50">
               <Header />
               {children}
+              <div className="interlaced"></div>
+              <div className="glare top-0 right-0 bottom-0 left-0 fixed -z-10"></div>
             </div>
           </div>
         </div>
