@@ -1,0 +1,51 @@
+[
+  {
+    "category": "Languages",
+    "list": [
+      "TypeScript/JavaScript",
+      "Java",
+      "PHP"
+    ]
+  },
+  {
+    "category": "Frameworks",
+    "list": [
+      "Next.js",
+      "React",
+      "Spring Boot",
+      "Laravel",
+      "Vue 2"
+    ]
+  },
+  {
+    "category": "Databases",
+    "list": [
+      "PostgreSQL",
+      "Redis",
+      "MongoDB",
+      "DynamoDB",
+      "MySQL"
+    ]
+  },
+  {
+    "category": "Testing",
+    "list": [
+      "Vitest/Jest",
+      "React Testing Library",
+      "JUnit",
+      "Mockito",
+      "PHPUnit"
+    ]
+  },
+  {
+    "category": "DevOps",
+    "list": [
+      "Docker",
+      "GCP",
+      "Bitbucket Pipelines",
+      "Github Actions",
+      "Terraform",
+      "AWS"
+    ]
+  }
+]
