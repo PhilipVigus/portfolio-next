@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <div className="h-full screen leading-9">
-          <div className="h-screen flex flex-col items-center justify-center p-60">
+          <div className="h-screen flex flex-col items-center justify-center p-10 sm:p-10 md:p-10 lg:p-10">
             <div className="w-full h-full flex flex-col justify-center box-border bg-transparent z-50">
               <Header />
               {children}

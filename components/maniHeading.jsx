@@ -1,4 +1,4 @@
-export function MainHeading({ title }) {
+export function ManiHeading({ title }) {
   return (
     <div className="mb-3 text-center">
       <h1 className="uppercase">{title}</h1>
