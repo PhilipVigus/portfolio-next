@@ -6,7 +6,6 @@ import skills from "../data/skills.json";
 import { SubHeading } from "../components/subHeading";
 
 export default function Page() {
-  console.log("skills", skills);
   return (
     <>
       <MainHeading title="Welcome to my portfolio!" />
@@ -19,7 +18,7 @@ export default function Page() {
       <ul>
         <SubHeading title="Skills" />
         {skills.map((skill) => (
-          <li>
+          <li key={skill.category}>
             {skill.category} - {skill.list.join(", ")}
           </li>
         ))}
