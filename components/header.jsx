@@ -16,9 +16,9 @@ export function Header() {
             <li key={index}>
               <Link
                 href={item.link}
-                className="inline-block px-1.5 py-1 transition hover:opacity-80 sm:px-3 sm:py-2"
+                className="inline-block px-1.5 py-1 transition sm:px-3 sm:py-2 no-underline"
               >
-                {item.label}
+                [{item.label}]
               </Link>
             </li>
           ))}
