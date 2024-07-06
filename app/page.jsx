@@ -1,6 +1,6 @@
 "use client";
 
-import "../styles/main.css";
+import "../styles/home.css";
 import { MainHeading } from "../components/mainHeading";
 import skills from "../data/skills.json";
 import { SubHeading } from "../components/subHeading";
@@ -23,8 +23,6 @@ export default function Page() {
           </li>
         ))}
       </ul>
-      <div className="interlaced"></div>
-      <div className="glare"></div>
     </>
   );
 }
