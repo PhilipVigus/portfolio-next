@@ -1,7 +1,9 @@
 "use client";
 
-import "../styles/main.css";
-import { MainHeading } from "../components/main-heading";
+import "../styles/home.css";
+import { MainHeading } from "../components/mainHeading";
+import skills from "../data/skills.json";
+import { SubHeading } from "../components/subHeading";
 
 export default function Page() {
   return (
@@ -13,8 +15,14 @@ export default function Page() {
         for building great applications. I live in Sweden, and work for
         Allakando as a Senior Full-Stack Developer.
       </p>
-      <div className="interlaced"></div>
-      <div className="glare"></div>
+      <ul>
+        <SubHeading title="Skills" />
+        {skills.map((skill) => (
+          <li key={skill.category}>
+            {skill.category} - {skill.list.join(", ")}
+          </li>
+        ))}
+      </ul>
     </>
   );
 }

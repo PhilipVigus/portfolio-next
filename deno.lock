@@ -66,15 +66,18 @@
     "packageJson": {
       "dependencies": [
         "npm:@netlify/blobs@^7.4.0",
+        "npm:@tailwindcss/typography@^0.5.13",
         "npm:autoprefixer@^10.4.18",
         "npm:blobshape@^1.0.0",
         "npm:bright@^0.8.5",
         "npm:daisyui@^4.12.8",
         "npm:eslint-config-next@14.2.4",
+        "npm:eslint-config-prettier@^9.1.0",
         "npm:eslint@8.57.0",
         "npm:markdown-to-jsx@^7.4.5",
         "npm:next@14.2.4",
         "npm:postcss@^8.4.36",
+        "npm:prettier@^3.3.2",
         "npm:react-dom@18.3.1",
         "npm:react@18.3.1",
         "npm:tailwindcss@^3.4.1",
