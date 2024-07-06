@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
             <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet" />
         </head>
-        <body className="screen">
+        <body>
         <div className="grow">{children}</div>
 
         </body>
