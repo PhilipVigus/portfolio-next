@@ -6,17 +6,17 @@
 @tailwind utilities;
 
 @layer base {
-    :not(pre) > code {
-        @apply px-1 py-0.5 font-mono rounded bg-neutral-900 text-yellow-200;
-        font-size: 0.9em;
+    *::before,
+    *::after {
+        box-sizing: border-box;
     }
-
-    h1 {
-        @apply mb-6 text-4xl font-bold tracking-tight md:text-5xl;
-    }
-
+    
     html, body, pre, code, kbd, samp {
         @apply font-sans;
+    }
+
+    p {
+        @apply mb-3
     }
 }
 
