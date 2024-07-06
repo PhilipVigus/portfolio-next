@@ -8,7 +8,7 @@ import { SubHeading } from "../components/subHeading";
 export default function Page() {
   return (
     <>
-      <ManiHeading title="Welcome to my portfolio!" />
+      <MainHeading title="Welcome to my portfolio!" />
 
       <p>
         My name is Phil Vigus and I&apos;m a full-stack developer with a passion
