@@ -16,7 +16,21 @@ module.exports = {
             },
             gridTemplateRows: {
                 'repeat-auto-fill': 'repeat(auto-fill, minmax(1em, 1fr))'
-            }
+            },
+            gridColumnStart: (() => {
+                const positions = {};
+                for (let i = 1; i <= 100; i++) {
+                    positions[i] = `${i}`;
+                }
+                return positions;
+            })(),
+            gridRowStart: (() => {
+                const positions = {};
+                for (let i = 1; i <= 100; i++) {
+                    positions[i] = `${i}`;
+                }
+                return positions;
+            })()
         }
     }
 };
