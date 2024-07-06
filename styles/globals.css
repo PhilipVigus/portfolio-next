@@ -10,7 +10,7 @@
     *::after {
         box-sizing: border-box;
     }
-    
+
     html, body, pre, code, kbd, samp {
         @apply font-sans;
     }
@@ -18,24 +18,4 @@
     p {
         @apply mb-3
     }
-}
-
-a {
-    @apply underline
-}
-
-.markdown {
-    @apply mb-1;
-}
-
-.alert .markdown {
-    @apply mb-0;
-}
-
-.markdown p {
-    @apply mb-3;
-}
-
-.btn:disabled {
-    @apply text-neutral-400 bg-neutral-700;
 }

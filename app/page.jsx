@@ -1,9 +1,9 @@
 "use client";
 
-import "../styles/main.css";
-import { ManiHeading } from "../components/maniHeading";
-import { SubHeading } from "../components/subHeadding";
+import "../styles/home.css";
+import { MainHeading } from "../components/mainHeading";
 import skills from "../data/skills.json";
+import { SubHeading } from "../components/subHeading";
 
 export default function Page() {
   return (
@@ -23,8 +23,6 @@ export default function Page() {
           </li>
         ))}
       </ul>
-      <div className="interlaced"></div>
-      <div className="glare"></div>
     </>
   );
 }

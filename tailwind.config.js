@@ -1,36 +1,31 @@
 module.exports = {
-    content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-    theme: {
-        extend: {
-            fontFamily: {
-                sans: ['VT323', 'sans-serif']
-            },
-            lineHeight: {
-                char: '1em'
-            },
-            letterSpacing: {
-                char: '0rem'
-            },
-            gridTemplateColumns: {
-                'repeat-auto-fill': 'repeat(auto-fill, minmax(1ch, 1fr))'
-            },
-            gridTemplateRows: {
-                'repeat-auto-fill': 'repeat(auto-fill, minmax(1em, 1fr))'
-            },
-            gridColumnStart: (() => {
-                const positions = {};
-                for (let i = 1; i <= 100; i++) {
-                    positions[i] = `${i}`;
-                }
-                return positions;
-            })(),
-            gridRowStart: (() => {
-                const positions = {};
-                for (let i = 1; i <= 100; i++) {
-                    positions[i] = `${i}`;
-                }
-                return positions;
-            })()
-        }
-    }
+  content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["VT323", "sans-serif"],
+      },
+      colors: {
+        "terminal-background": "hsl(154 50% 5%)",
+        "terminal-text": "hsl(154 84% 70%)",
+      },
+      fontSize: {
+        "terminal-large": "2.0em",
+      },
+      textShadow: {
+        "terminal-text-shadow": "0 0 0.2em hsl(154 84% 70%)",
+      },
+    },
+  },
+  plugins: [
+    require("@tailwindcss/typography"),
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".text-shadow-custom": {
+          textShadow: "0 0 0.2em hsl(154 84% 70%)",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 };
