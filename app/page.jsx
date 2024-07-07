@@ -3,26 +3,39 @@
 import "../styles/home.css";
 import { MainHeading } from "../components/mainHeading";
 import skills from "../data/skills.json";
-import { SubHeading } from "../components/subHeading";
+import SkillsList from "../components/skillsList";
 
 export default function Page() {
   return (
     <>
       <MainHeading title="Welcome to my portfolio!" />
-
       <p>
         My name is Phil Vigus and I&apos;m a full-stack developer with a passion
-        for building great applications. I live in Sweden, and work for
-        Allakando as a Senior Full-Stack Developer.
+        for building great applications. I live in Sweden, and work a Senior
+        Full-Stack Developer.
       </p>
-      <ul>
-        <SubHeading title="Skills" />
-        {skills.map((skill) => (
-          <li key={skill.category}>
-            {skill.category} - {skill.list.join(", ")}
-          </li>
-        ))}
-      </ul>
+      <p>
+        After qualifying with a degree in Computer Science, I spent the early
+        part of my career in the tech industry, initially as a developer before
+        moving into business development. I then taught ICT, before taking a
+        role in educational quality assurance.
+      </p>
+      <p>
+        About six years a go I changed direction, returning to my roots in
+        software development. Since then I&apos;ve worked in a variety of
+        programming roles, including backend and full-stack development, and
+        consulting. I currently work for Allakando as a Senior Full-Stack
+        Developer.
+      </p>
+      <p>
+        My experience with client and customer facing roles has given me
+        excellent communication and general interpersonal skills. I love the
+        blend of creative and analytical skills required to be a developer, and
+        seeing an application grow before my eyes really excites me. I am
+        happiest when I&apos;m learning, and the constantly changing tech
+        landscape means that there will always be something new to understand.
+      </p>
+      <SkillsList skills={skills} />
     </>
   );
 }
