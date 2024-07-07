@@ -7,9 +7,11 @@ export default function Page() {
     <>
       <MainHeading title="Experience" />
 
-      {experience.map((job) => (
-        <JobExperience key={job.id} job={job} />
-      ))}
+      <div className="flex flex-col gap-10">
+        {experience.map((job) => (
+          <JobExperience key={job.id} job={job} />
+        ))}
+      </div>
     </>
   );
 }
