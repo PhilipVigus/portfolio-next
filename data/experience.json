@@ -93,5 +93,24 @@
       "JavaScript",
       "Docker"
     ]
+  },
+  {
+    "id": 5,
+    "title": "Other relevant experience",
+    "company": "Various",
+    "location": "UK",
+    "date": "",
+    "description": "Prior roles include teaching ICT to the physically disabled, working with computer models of SONAR systems, educational quality assurance, and ecommerce consultancy.",
+    "tech": [
+      "PHP",
+      "Laravel",
+      "Tailwind",
+      "Alpine",
+      "Livewire",
+      "AWS",
+      "SQL",
+      "JavaScript",
+      "Docker"
+    ]
   }
 ]
