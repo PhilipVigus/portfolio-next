@@ -1,9 +1,6 @@
-import { SubHeading } from "./subHeading";
-
 export default function SkillsList({ skills }) {
   return (
     <div className="mb-3">
-      <SubHeading title="Skills" />
       <ul>
         {skills.map((skill) => (
           <li

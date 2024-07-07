@@ -11,11 +11,11 @@
         box-sizing: border-box;
     }
 
-    html, body, pre, code, kbd, samp {
+    html, body, pre, code, kbd, samp, p {
         @apply font-sans;
     }
 
     p {
-        @apply mb-3
+        @apply mb-3;
     }
 }
