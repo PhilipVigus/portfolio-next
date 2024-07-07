@@ -4,6 +4,7 @@ import React from "react";
 
 const navItems = [
   { link: "/", label: "About" },
+  { link: "/skills", label: "Skills" },
   { link: "/experience", label: "Experience" },
   { link: "/contact", label: "Contact" },
 ];
