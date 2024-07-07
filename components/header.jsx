@@ -5,7 +5,6 @@ import React from "react";
 const navItems = [
   { link: "/", label: "About" },
   { link: "/experience", label: "Experience" },
-  { link: "/stuff-ive-done", label: "Stuff I've Done" },
   { link: "/contact", label: "Contact" },
 ];
 

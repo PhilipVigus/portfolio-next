@@ -9,7 +9,6 @@ export default function Page() {
   return (
     <>
       <MainHeading title="Welcome to my portfolio!" />
-
       <p>
         My name is Phil Vigus and I&apos;m a full-stack developer with a passion
         for building great applications. I live in Sweden, and work a Senior
@@ -27,6 +26,14 @@ export default function Page() {
         programming roles, including backend and full-stack development, and
         consulting. I currently work for Allakando as a Senior Full-Stack
         Developer.
+      </p>
+      <p>
+        My experience with client and customer facing roles has given me
+        excellent communication and general interpersonal skills. I love the
+        blend of creative and analytical skills required to be a developer, and
+        seeing an application grow before my eyes really excites me. I am
+        happiest when I&apos;m learning, and the constantly changing tech
+        landscape means that there will always be something new to understand.
       </p>
       <SkillsList skills={skills} />
     </>
