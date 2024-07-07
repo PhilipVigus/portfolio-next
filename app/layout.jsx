@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       <body>
         <div className="h-full leading-9 text-terminal-text bg-terminal-background text-shadow-custom text-terminal-large whitespace-pre-wrap break-words">
           <div className="h-screen flex flex-col items-center justify-center p-10 md:p-20 lg:p-40 xl:p-80">
-            <div className="w-full h-full flex flex-col justify-center box-border bg-transparent z-50">
+            <div className="w-full h-full flex flex-col box-border bg-transparent z-50">
               <Header />
               {children}
               <div className="interlaced top-0 right-0 bottom-0 left-0 fixed z-10 pointer-events-none"></div>
