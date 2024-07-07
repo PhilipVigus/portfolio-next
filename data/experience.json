@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "title": "Senior Full-Stack Developer",
+    "company": "Allakando",
+    "location": "Sweden",
+    "date": "Aug 2023 - Present",
+    "desc": [
+      "Rewrote majority of MVP backend code, making it more maintainable, scalable and production-ready.",
+      "Leading the resolution of issues with the handling of times and dates across all applications and 3rd party services.",
+      "Key role in designing, planning and implementing Allakando's approach to migrating a legacy application to the current tech stack.",
+      "Implementing various features for Allakando's applications."
+    ],
+    "tech": [
+      "JavaScript",
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Web Components",
+      "Vue 2",
+      "GCP"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Consultant Back-End Developer",
+    "company": "Devoteam Creative Tech",
+    "location": "Sweden",
+    "date": "Sep 2022 - Jul 2023",
+    "desc": [
+      "Completed the migration of a client's key application from using MySQL to a MongoDB database.",
+      "Maintained a complex legacy codebase utilising AWS (Lambda, Step Functions, SQS, SNS, API Gateway, CloudFormation etc) and integrations with a large number of external systems.",
+      "Built an IoT project to control the air quality in meeting rooms.",
+      "Supported business development by providing technical input to bid documents and estimates."
+    ],
+    "tech": [
+      "Java",
+      "Spring Boot",
+      "Terraform",
+      "MySQL",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "Serverless"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Volunteer Back-End Developer",
+    "company": "The Climate App",
+    "location": "Remote",
+    "date": "Sep 2022 - Jul 2023",
+    "desc": [
+      "Backend developer working with the Spring Boot/PostgreSQL API used by the iOS and Android apps.",
+      "Lead developer on the application's administration system."
+    ],
+    "tech": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Docker"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Developer",
+    "company": "Mumsnet",
+    "location": "UK",
+    "date": "Nov 2020 - Aug 2022",
+    "desc": [
+      "Full-stack development using Tailwind, Alpine, Livewire and Laravel, and AWS. Using agile working practices and working with various teams including product, content and design.",
+      "Implemented the administration functionality of the Mumsnet forums.",
+      "Optimised SQL and Laravel Eloquent scripts used to migrate millions of records to a new database structure.",
+      "Migrated application to a new tech stack.",
+      "Mentored junior developers"
+    ],
+    "tech": [
+      "PHP",
+      "Laravel",
+      "Tailwind",
+      "Alpine",
+      "Livewire",
+      "AWS",
+      "SQL",
+      "JavaScript",
+      "Docker"
+    ]
+  }
+]
