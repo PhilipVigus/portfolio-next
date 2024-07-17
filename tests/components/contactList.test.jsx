@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import { render, screen } from "@testing-library/react";
 import ContactsList from "../../components/contactsList";
 
-describe("ContactList", function () {
+describe("ContactList component", function () {
   it("renders the contact list", function () {
     const contacts = [
       {

@@ -11,15 +11,6 @@
       "Driving the development of key CI/CD pipelines to make them simpler, more reliable and faster to run.",
       "Played a key role in designing, planning and implementing the approach to migrating a legacy application to the current tech stack.",
       "Rewrote the majority of MVP backend code, making it more maintainable, scalable and production-ready."
-    ],
-    "tech": [
-      "JavaScript",
-      "TypeScript",
-      "Next.js",
-      "React",
-      "Web Components",
-      "Vue 2",
-      "GCP"
     ]
   },
   {
@@ -34,19 +25,6 @@
       "Maintained a complex legacy codebase utilising AWS (including Lambda and Step Functions, SQS, SNS, API Gateway and CloudFormation) and integrations with a large number of external systems.",
       "Built an IoT project to control the air quality in meeting rooms.",
       "Supported business development by providing technical input to bid documents and estimates."
-    ],
-    "tech": [
-      "Java",
-      "Spring Boot",
-      "Terraform",
-      "MySQL",
-      "JavaScript",
-      "TypeScript",
-      "Python",
-      "MongoDB",
-      "AWS",
-      "Docker",
-      "Serverless"
     ]
   },
   {
@@ -55,16 +33,7 @@
     "company": "The Climate App - a non-profit organisation that provides a platform for users to track their carbon footprint and take action to reduce it.",
     "location": "Remote",
     "date": "Sep 2022 - Jul 2023",
-    "description": "I worked as a volunteer on the project, developing the Spring Boot/PostgreSQL service used by the iOS and Android apps.",
-    "tech": [
-      "Java",
-      "Spring Boot",
-      "PostgreSQL",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Docker"
-    ]
+    "description": "I worked as a volunteer on the project, developing the Spring Boot/PostgreSQL service used by the iOS and Android apps."
   },
   {
     "id": 4,
@@ -77,17 +46,6 @@
       "Implemented the administration functionality of the Mumsnet forums.",
       "Optimised SQL and scripts to migrate millions of records to a new database structure, reducing run time from hours to minutes.",
       "Migrated the application to a new tech stack."
-    ],
-    "tech": [
-      "PHP",
-      "Laravel",
-      "Tailwind",
-      "Alpine",
-      "Livewire",
-      "AWS",
-      "SQL",
-      "JavaScript",
-      "Docker"
     ]
   },
   {
@@ -95,17 +53,6 @@
     "title": "Other relevant experience",
     "location": "UK",
     "date": "",
-    "description": "Prior roles include teaching ICT to the physically disabled, working with computer models of SONAR systems, educational quality assurance, and ecommerce consultancy. These positions have given me an excellent blend of technical and soft skills, which I continue to use extensively in my day-to-day work.",
-    "tech": [
-      "PHP",
-      "Laravel",
-      "Tailwind",
-      "Alpine",
-      "Livewire",
-      "AWS",
-      "SQL",
-      "JavaScript",
-      "Docker"
-    ]
+    "description": "Prior roles include teaching ICT to the physically disabled, working with computer models of SONAR systems, educational quality assurance, and ecommerce consultancy. These positions have given me an excellent blend of technical and soft skills, which I continue to use extensively in my day-to-day work."
   }
 ]

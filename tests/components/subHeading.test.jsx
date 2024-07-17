@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { SubHeading } from "../../components/subHeading";
 
-describe("SubHeading", function () {
+describe("SubHeading component", function () {
   it("renders the heading", function () {
     render(<SubHeading title="A test subheading" />);
     const headingText = screen.getByRole("heading", { level: 2 });
