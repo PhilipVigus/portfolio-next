@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 const navItems = [
   { link: "/", label: "About" },
@@ -11,10 +12,15 @@ const navItems = [
 
 export function Header() {
   const [showMenu, setShowMenu] = React.useState(false);
+  const router = useRouter();
 
-  const handleClick = () => {
-    console.log("clicked");
+  const handleShowHideMenu = () => {
     setShowMenu((showMenu) => !showMenu);
+  };
+
+  const handleNavigation = (link) => {
+    router.push(link);
+    setShowMenu(false);
   };
 
   return (
@@ -25,7 +31,11 @@ export function Header() {
             <li key={index}>
               <Link
                 href={item.link}
-                className={`px-1.5 transition no-underline ${showMenu ? "inline-block" : "hidden"} md:inline-block`}
+                className={`px-1.5 no-underline ${showMenu ? "inline-block" : "hidden"} md:inline-block`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNavigation(item.link);
+                }}
               >
                 [{item.label}]
               </Link>
@@ -33,8 +43,8 @@ export function Header() {
           ))}
         </ul>
       )}
-      <div role="button" onClick={handleClick} className="align-top md:hidden">
-        [x]
+      <div role="button" onClick={handleShowHideMenu} className="align-top md:hidden">
+        [{showMenu ? "x" : "="}]
       </div>
     </nav>
   );
