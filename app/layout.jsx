@@ -2,6 +2,13 @@ import "../styles/globals.css";
 import "../styles/home.css";
 import { Header } from "../components/header";
 import React from "react";
+import { VT323 } from "next/font/google";
+
+const vt323 = VT323({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400"],
+});
 
 export const metadata = {
   title: {
@@ -11,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="mytheme">
+    <html lang="en" className={vt323.className}>
       <head>
         <title>{metadata.title.default}</title>
         <link rel="icon" href="/favicon.svg" sizes="any" />
