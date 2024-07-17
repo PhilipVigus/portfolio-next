@@ -5,8 +5,7 @@ import React from "react";
 
 export const metadata = {
   title: {
-    template: "%s | Netlify",
-    default: "Netlify Starter",
+    default: "Phil's Portfolio",
   },
 };
 
@@ -15,7 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme="mytheme">
       <head>
         <link rel="icon" href="/favicon.svg" sizes="any" />
-        <title>Phil&apos;s Portfolio</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

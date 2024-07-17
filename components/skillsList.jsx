@@ -1,4 +1,6 @@
-export default function SkillsList({ skills }) {
+import skills from "../data/skills.json";
+
+export default function SkillsList() {
   return (
     <div className="mb-3">
       <ul>

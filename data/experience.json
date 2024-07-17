@@ -9,8 +9,8 @@
     "achievements": [
       "Leading the resolution of issues with the handling of times and dates across all applications and 3rd party services.",
       "Driving the development of key CI/CD pipelines to make them simpler, more reliable and faster to run.",
-      "Key role in designing, planning and implementing Allakando's approach to migrating a legacy application to the current tech stack.",
-      "Rewrote majority of MVP backend code, making it more maintainable, scalable and production-ready."
+      "Played a key role in designing, planning and implementing the approach to migrating a legacy application to the current tech stack.",
+      "Rewrote the majority of MVP backend code, making it more maintainable, scalable and production-ready."
     ],
     "tech": [
       "JavaScript",
@@ -57,7 +57,7 @@
     "date": "Sep 2022 - Jul 2023",
     "description": "I worked as a volunteer on the project, helping to develop the backend.",
     "achievements": [
-      "Backend developer working with the Spring Boot/PostgreSQL API used by the iOS and Android apps.",
+      "Backend developer working with the Spring Boot/PostgreSQL service used by the iOS and Android apps.",
       "Lead developer on the application's administration system."
     ],
     "tech": [
