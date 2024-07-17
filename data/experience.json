@@ -2,15 +2,15 @@
   {
     "id": 1,
     "title": "Senior Full-Stack Developer",
-    "company": "Allakando",
+    "company": "Allakando - provides a platform for tutoring and nannying services.",
     "location": "Sweden",
     "date": "Aug 2023 - Present",
-    "description": "Allakando provides a platform for tutoring and nannying services. I am responsible for the development of the platform, including the backend, frontend and infrastructure. I work closely with the product team to deliver new features and improvements to the platform. I also work with the operations team to ensure the platform is stable and scalable.",
+    "description": "I am responsible for the development of the platform, including the backend, frontend and infrastructure. I work closely with the product team to deliver new features and improvements to the platform. I also work with the operations team to ensure the platform is stable and scalable.",
     "achievements": [
-      "Rewrote majority of MVP backend code, making it more maintainable, scalable and production-ready.",
       "Leading the resolution of issues with the handling of times and dates across all applications and 3rd party services.",
+      "Driving the development of key CI/CD pipelines to make them simpler, more reliable and faster to run.",
       "Key role in designing, planning and implementing Allakando's approach to migrating a legacy application to the current tech stack.",
-      "Implementing various features for Allakando's applications."
+      "Rewrote majority of MVP backend code, making it more maintainable, scalable and production-ready."
     ],
     "tech": [
       "JavaScript",
@@ -24,13 +24,13 @@
   },
   {
     "id": 2,
-    "title": "Consultant Back-End Developer",
-    "company": "Devoteam Creative Tech",
+    "title": "Consultant Backend Developer",
+    "company": "Devoteam Creative Tech - a consultancy that provides software development services to clients in a variety of industries.",
     "location": "Sweden",
     "date": "Sep 2022 - Jul 2023",
-    "description": "Devoteam Creative Tech is a consultancy that provides software development services to clients in a variety of industries. I worked on a range of client projects, and the role required a high level of technical expertise, the ability to pick up new technologies quickly, and to work with a range of stakeholders.",
+    "description": "I worked on a range of client projects, and the role required a high level of technical expertise, the ability to pick up new technologies quickly, and to work with a range of stakeholders.",
     "achievements": [
-      "Completed the migration of a client's key application from using MySQL to a MongoDB database.",
+      "Completed the migration of a client's key application from MySQL to a MongoDB database.",
       "Maintained a complex legacy codebase utilising AWS (Lambda, Step Functions, SQS, SNS, API Gateway, CloudFormation etc) and integrations with a large number of external systems.",
       "Built an IoT project to control the air quality in meeting rooms.",
       "Supported business development by providing technical input to bid documents and estimates."
@@ -51,11 +51,11 @@
   },
   {
     "id": 3,
-    "title": "Volunteer Back-End Developer",
-    "company": "The Climate App",
+    "title": "Volunteer Backend Developer",
+    "company": "The Climate App - a non-profit organisation that provides a platform for users to track their carbon footprint and take action to reduce it.",
     "location": "Remote",
     "date": "Sep 2022 - Jul 2023",
-    "description": "The Climate App is a non-profit organisation that provides a platform for users to track their carbon footprint and take action to reduce it. I worked as a volunteer on the project, helping to develop the backend.",
+    "description": "I worked as a volunteer on the project, helping to develop the backend.",
     "achievements": [
       "Backend developer working with the Spring Boot/PostgreSQL API used by the iOS and Android apps.",
       "Lead developer on the application's administration system."
@@ -73,14 +73,14 @@
   {
     "id": 4,
     "title": "Developer",
-    "company": "Mumsnet",
+    "company": "Mumsnet - an extremely popular parenting website that provides a platform for parents to share advice and information",
     "location": "UK",
     "date": "Nov 2020 - Aug 2022",
-    "description": "Mumsnet is a parenting website that provides a platform for parents to share advice and information. I worked across the stack, developing new features and maintaining the existing codebase.",
+    "description": "I worked across the stack, developing new features and maintaining the existing codebase.",
     "achievements": [
       "Implemented the administration functionality of the Mumsnet forums.",
       "Optimised SQL and scripts to migrate millions of records to a new database structure, reducing run time from hours to minutes.",
-      "Migrated application to a new tech stack."
+      "Migrated the application to a new tech stack."
     ],
     "tech": [
       "PHP",

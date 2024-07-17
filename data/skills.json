@@ -2,7 +2,8 @@
   {
     "category": "Languages",
     "list": [
-      "TypeScript/JavaScript",
+      "TypeScript",
+      "JavaScript",
       "Java",
       "PHP"
     ]

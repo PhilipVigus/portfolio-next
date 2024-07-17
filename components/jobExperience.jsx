@@ -3,12 +3,12 @@ import { SubHeading } from "./subHeading";
 export default function JobExperience({ job }) {
   return (
     <div>
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-col md:flex-row mb-3 md:mb-0">
         <SubHeading title={job.title} />
-        <div>{job.date}</div>
+        {job.date && <div>({job.date})</div>}
       </div>
       <div className="mb-3">{job.company}</div>
-      <p>{job.description}</p>
+      <div className="mb-3">{job.description}</div>
       {job.achievements && (
         <ul>
           <div>Key achievements:</div>
