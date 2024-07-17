@@ -8,6 +8,8 @@ module.exports = {
       },
       fontSize: {
         "terminal-large": "1.9em",
+        "terminal-medium": "1.7em",
+        "terminal-small": "1.5em",
       },
       textShadow: {
         "terminal-text-shadow": "0 0 0.2em hsl(154 84% 70%)",
