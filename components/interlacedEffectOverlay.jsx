@@ -1,20 +1,19 @@
 "use client";
 
 import React from "react";
-import "../styles/home.css";
+import "../styles/interlaced.css";
 
-export default function InterlacedEffect() {
+export default function InterlacedEffectOverlay() {
   const [enabled, setEnabled] = React.useState(false);
 
   const onClick = () => {
-    console.log("onClick");
     setEnabled((enabled) => !enabled);
   };
 
   return (
     <div className="mb-8">
       <div className="text-right" onClick={onClick}>
-        Toggle Interlaced Effect [{enabled ? "x" : " "}]
+        Interlaced Effect [{enabled ? "off" : "on"}]
       </div>
       {enabled && (
         <>
