@@ -15,16 +15,6 @@ export default function RootLayout({ children }) {
       <head>
         <title>{metadata.title.default}</title>
         <link rel="icon" href="/favicon.svg" sizes="any" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <body>
         <div className="h-full leading-9 text-terminal-text bg-terminal-background text-shadow-custom text-terminal-large whitespace-pre-wrap break-words">
