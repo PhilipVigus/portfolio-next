@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import "../styles/home.css";
 import { Header } from "../components/header";
+import React from "react";
 
 export const metadata = {
   title: {

@@ -19,25 +19,6 @@
 }
 
 .interlaced {
-    background: repeating-linear-gradient(transparent 0px 2px, hsl(154 0% 0%/.3) 2px 4px);
+    background: repeating-linear-gradient(transparent 0px 2px, hsl(154 0% 0%/.25) 2px 4px);
     animation: lines 0.066666666s linear infinite;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 0
-    }
-    30% {
-        opacity: 1
-    }
-    70% {
-        opacity: 1
-    }
-    100% {
-        opacity: 0
-    }
-}
-
-.blink {
-    animation: blink 0.4s linear infinite;
 }
