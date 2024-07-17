@@ -13,7 +13,13 @@ export default function JobExperience({ job }) {
         <ul>
           <div>Key achievements:</div>
           {job.achievements.map((achievement) => (
-            <li key={achievement}>-&nbsp;{achievement}</li>
+            <li
+              key={achievement}
+              className="grid grid-cols-[minmax(0,max-content)_minmax(0,max-content)_1fr] gap-2"
+            >
+              <div>-</div>
+              <div>{achievement}</div>
+            </li>
           ))}
         </ul>
       )}
