@@ -3,8 +3,8 @@ import { describe, expect, it } from "vitest";
 import { render, screen } from "@testing-library/react";
 import ContactsList from "../../components/contactsList";
 
-describe("ContactList", () => {
-  it("renders the contact list", () => {
+describe("ContactList", function () {
+  it("renders the contact list", function () {
     const contacts = [
       {
         id: 0,
@@ -27,7 +27,7 @@ describe("ContactList", () => {
     });
   });
 
-  it("renders the spacer between contacts", () => {
+  it("renders the spacer between contacts", function () {
     const contacts = [
       {
         id: 0,
