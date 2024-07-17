@@ -19,6 +19,6 @@
 }
 
 .interlaced {
-    background: repeating-linear-gradient(transparent 0px 2px, hsl(154 0% 0%/.2) 2px 4px);
+    background: repeating-linear-gradient(transparent 0px 2px, hsl(154 0% 0%/.8) 2px 4px);
     animation: lines 0.066666666s linear infinite;
 }
