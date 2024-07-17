@@ -14,7 +14,7 @@ export default function InterlacedEffect() {
   return (
     <div className="mb-8">
       <div className="text-right" onClick={onClick}>
-        Toggle Interlaced [{enabled ? "x" : " "}]
+        Toggle Interlaced Effect [{enabled ? "x" : " "}]
       </div>
       {enabled && (
         <>

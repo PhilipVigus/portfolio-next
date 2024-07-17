@@ -29,7 +29,6 @@ export default function RootLayout({ children }) {
           <div className="h-screen flex flex-col items-center justify-center p-10 md:p-20 lg:p-20 xl:p-60">
             <div className="w-full h-full flex flex-col box-border bg-transparent z-50">
               <InterlacedEffect />
-
               <Header />
 
               {children}
