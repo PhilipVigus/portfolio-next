@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="mytheme">
       <head>
+        <title>{metadata.title.default}</title>
         <link rel="icon" href="/favicon.svg" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
