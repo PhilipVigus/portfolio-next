@@ -1,11 +1,11 @@
 import "../styles/globals.css";
-import "../styles/glare.css";
 import { Header } from "../components/header";
 import React from "react";
 import { VT323 } from "next/font/google";
 import InterlacedEffectOverlay from "../components/interlacedEffectOverlay";
 import GlareEffectOverlay from "../components/glareEffectOverlay";
 
+// Builds the VT323 font into the app so it doesn't need to be fetched from Google Fonts
 const vt323 = VT323({
   subsets: ["latin"],
   display: "swap",
