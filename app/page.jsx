@@ -1,6 +1,3 @@
-"use client";
-
-import "../styles/home.css";
 import { MainHeading } from "../components/mainHeading";
 
 export default function Page() {

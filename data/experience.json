@@ -5,9 +5,9 @@
     "company": "Allakando - provides a platform for tutoring and nannying services.",
     "location": "Sweden",
     "date": "Aug 2023 - Present",
-    "description": "I am responsible for the development of the platform, including the backend, frontend and infrastructure. I work closely with the product team to deliver new features and improvements to the platform. I also work with the operations team to ensure the platform is stable and scalable.",
+    "description": "I am responsible for the development of the platform, including the backend, frontend and infrastructure. As part of the development team, I work closely with the product team to deliver new features and improvements to the platform. I also work with the operations team to ensure the platform is stable and scalable.",
     "achievements": [
-      "Leading the resolution of issues with the handling of times and dates across all applications and 3rd party services.",
+      "Leading the resolution of issues with the handling of times and dates across all applications and third party services.",
       "Driving the development of key CI/CD pipelines to make them simpler, more reliable and faster to run.",
       "Played a key role in designing, planning and implementing the approach to migrating a legacy application to the current tech stack.",
       "Rewrote the majority of MVP backend code, making it more maintainable, scalable and production-ready."
@@ -31,7 +31,7 @@
     "description": "I worked on a range of client projects, and the role required a high level of technical expertise, the ability to pick up new technologies quickly, and to work with a range of stakeholders.",
     "achievements": [
       "Completed the migration of a client's key application from MySQL to a MongoDB database.",
-      "Maintained a complex legacy codebase utilising AWS (Lambda, Step Functions, SQS, SNS, API Gateway, CloudFormation etc) and integrations with a large number of external systems.",
+      "Maintained a complex legacy codebase utilising AWS (including Lambda and Step Functions, SQS, SNS, API Gateway and CloudFormation) and integrations with a large number of external systems.",
       "Built an IoT project to control the air quality in meeting rooms.",
       "Supported business development by providing technical input to bid documents and estimates."
     ],
@@ -55,11 +55,7 @@
     "company": "The Climate App - a non-profit organisation that provides a platform for users to track their carbon footprint and take action to reduce it.",
     "location": "Remote",
     "date": "Sep 2022 - Jul 2023",
-    "description": "I worked as a volunteer on the project, helping to develop the backend.",
-    "achievements": [
-      "Backend developer working with the Spring Boot/PostgreSQL service used by the iOS and Android apps.",
-      "Lead developer on the application's administration system."
-    ],
+    "description": "I worked as a volunteer on the project, developing the Spring Boot/PostgreSQL service used by the iOS and Android apps.",
     "tech": [
       "Java",
       "Spring Boot",
@@ -73,7 +69,7 @@
   {
     "id": 4,
     "title": "Developer",
-    "company": "Mumsnet - an extremely popular parenting website that provides a platform for parents to share advice and information",
+    "company": "Mumsnet - an extremely popular parenting website that provides a platform for parents to share advice and information.",
     "location": "UK",
     "date": "Nov 2020 - Aug 2022",
     "description": "I worked across the stack, developing new features and maintaining the existing codebase.",
@@ -97,10 +93,9 @@
   {
     "id": 5,
     "title": "Other relevant experience",
-    "company": "Various",
     "location": "UK",
     "date": "",
-    "description": "Prior roles include teaching ICT to the physically disabled, working with computer models of SONAR systems, educational quality assurance, and ecommerce consultancy.",
+    "description": "Prior roles include teaching ICT to the physically disabled, working with computer models of SONAR systems, educational quality assurance, and ecommerce consultancy. These positions have given me an excellent blend of technical and soft skills, which I continue to use extensively in my day-to-day work.",
     "tech": [
       "PHP",
       "Laravel",

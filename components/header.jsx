@@ -24,14 +24,14 @@ export function Header() {
   };
 
   return (
-    <nav className="flex flex-row justify-end items-start gap-4 pb-12">
+    <nav className="flex flex-row justify-end items-start gap-4 mb-12">
       {!!navItems?.length && (
-        <ul className="flex flex-col md:flex-row md:justify-end items-end flex-wrap gap-x-2 gap-y-1 flex-grow">
+        <ul className="flex flex-col md:flex-row md:justify-end items-end flex-wrap gap-x-8 gap-y-1 flex-grow">
           {navItems.map((item, index) => (
             <li key={index}>
               <Link
                 href={item.link}
-                className={`px-1.5 no-underline ${showMenu ? "inline-block" : "hidden"} md:inline-block`}
+                className={` no-underline ${showMenu ? "inline-block" : "hidden"} md:inline-block`}
                 onClick={(e) => {
                   e.preventDefault();
                   handleNavigation(item.link);
@@ -43,7 +43,11 @@ export function Header() {
           ))}
         </ul>
       )}
-      <div role="button" onClick={handleShowHideMenu} className="align-top md:hidden">
+      <div
+        role="button"
+        onClick={handleShowHideMenu}
+        className="align-top md:hidden"
+      >
         [{showMenu ? "x" : "="}]
       </div>
     </nav>
