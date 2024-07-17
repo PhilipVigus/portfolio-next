@@ -13,7 +13,6 @@ export function Header() {
   const [showMenu, setShowMenu] = React.useState(false);
 
   const handleClick = () => {
-    console.log("clicked");
     setShowMenu((showMenu) => !showMenu);
   };
 
@@ -34,7 +33,7 @@ export function Header() {
         </ul>
       )}
       <div role="button" onClick={handleClick} className="align-top md:hidden">
-        [x]
+        [{showMenu ? "x" : "="}]
       </div>
     </nav>
   );
