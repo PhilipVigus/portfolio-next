@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint --fix",
     "prettier": "npx prettier --write app components",
-    "format": "npm run prettier && npm run lint"
+    "format": "npm run prettier && npm run lint",
+    "test": "vitest"
   },
   "dependencies": {
     "next": "14.2.4",
