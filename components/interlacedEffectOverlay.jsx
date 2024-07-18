@@ -12,7 +12,7 @@ export default function InterlacedEffectOverlay() {
 
   return (
     <div className="mb-8">
-      <div className="text-right" onClick={onClick}>
+      <div className="text-right cursor-pointer" onClick={onClick}>
         Interlaced Effect [{enabled ? "off" : "on"}]
       </div>
       {enabled && (
