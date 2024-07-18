@@ -30,7 +30,7 @@ export default function Page() {
           skills required to be a developer, and seeing an application grow
           before my eyes really excites me. I am happiest when I&apos;m
           learning, and the constantly changing tech landscape means that there
-          will always be something new to understand. blah
+          will always be something new to understand.
         </p>
         <a
           href="/phil-vigus-cv.pdf"
@@ -38,7 +38,7 @@ export default function Page() {
           rel="noopener noreferrer"
           className="text-center"
         >
-          <div className="text-center">[VIEW CV]</div>
+          <div className="text-center mt-8">[VIEW CV]</div>
         </a>
       </section>
     </main>
