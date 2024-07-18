@@ -4,9 +4,9 @@ import skills from "../../data/skills.json";
 
 export default function Page() {
   return (
-    <>
+    <main>
       <MainHeading title="Technical Skills" />
       <SkillsList skills={skills} />
-    </>
+    </main>
   );
 }

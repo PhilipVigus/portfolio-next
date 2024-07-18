@@ -4,9 +4,9 @@ import contacts from "../../data/contacts";
 
 export default function Page() {
   return (
-    <>
+    <main>
       <MainHeading title="Contact" />
       <ContactsList contacts={contacts} />
-    </>
+    </main>
   );
 }

@@ -4,9 +4,9 @@ import experience from "../../data/experience.json";
 
 export default function Page() {
   return (
-    <>
+    <main>
       <MainHeading title="Experience" />
       <ExperienceList experience={experience} />
-    </>
+    </main>
   );
 }
