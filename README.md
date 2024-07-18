@@ -1,43 +1,53 @@
-# Next.js on Netlify Platform Starter
+# Professional Portfolio
 
-[Live Demo](https://nextjs-platform-starter.netlify.app/)
+![Portfolio screenshot](./screenshot.png)
 
-A modern starter based on Next.js 14 (App Router), Tailwind, daisyUI, and [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blob Store).
+My professional portfolio.
 
-In this site, Netlify Core Primitives are used both implictly for running Next.js features (e.g. Route Handlers, image optimization via `next/image`, and more) and also explicitly by the user code. 
+## Technologies used
 
-Implicit usage means you're using any Next.js functionality and everything "just works" when deployed - all the plumbing is done for you. Explicit usage is framework-agnostic and typically provides more features than what Next.js exposes.
+| Purpose  | Technology                    |
+|----------|-------------------------------|
+| Language | JavaScript                    |
+| Frontend | React, Nextjs                 |
+| Linting  | Eslint, Prettier              |
+| Testing  | Vitest, React Testing Library |
+| CI/CD    | Github, Netlify               |
 
-## Deploying to Netlify
+## Getting started
 
-This site requires [Netlify Next Runtime v5](https://docs.netlify.com/frameworks/next-js/overview/) for full functionality. That version is now being gradually rolled out to all Netlify accounts. 
+```bash
+# clone the repository to your local machine
+git clone git@github.com:PhilipVigus/portfolio-next.git
 
-After deploying via the button below, please visit the **Site Overview** page for your new site to check whether it is already using the v5 runtime. If not, you'll be prompted to opt-in to to v5.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-platform-starter)
-
-## Developing Locally
-
-1. Clone this repository, then run `npm install` in its root directory.
-
-2. For the starter to have full functionality locally (e.g. edge functions, blob store), please ensure you have an up-to-date version of Netlify CLI. Run:
-
-```
-npm install netlify-cli@latest -g
-```
-
-3. Link your local repository to the deployed Netlify site. This will ensure you're using the same runtime version for both local development and your deployed site.
-
-```
-netlify link
+# install the dependencies
+npm install
+# or
+yarn install 
 ```
 
-4. Then, run the Next.js development server via Netlify CLI:
+## Running the project
 
-```
+```bash
+# start the development server
 netlify dev
 ```
 
-If your browser doesn't navigate to the site automatically, visit [localhost:8888](http://localhost:8888).
+## Running the tests
 
+```bash
+# run the tests
+npm test
+```
+
+## Design and approach
+
+I wanted to create a simple, clean and professional portfolio so decided to use Nextjs, as it is a framework I am
+familiar and I knew it would quickly allow me to produce a simple static site.
+
+I wanted to create a retro-inspired site, and the design is based on ideas
+from [this blog post](https://webartisan.info/how-i-made-my-80s-retro-style-homepage-part-1#heading-ascii-art). I made
+the interlacing effect toggleable, as I was concerned it could make the site difficult to read for some people.
+
+I used Tailwind CSS for styling as it has been a while since I used it and wanted to see what had been added.
 
