@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={vt323.className}>
       <head>
         <title>{metadata.title.default}</title>
-        <link rel="icon" href="/favicon.svg" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body>
         <div className="min-h-screen leading-9 text-terminal-text bg-terminal-background text-shadow-custom text-terminal-small md:text-terminal-medium lg:text-terminal-large whitespace-pre-wrap break-words">
