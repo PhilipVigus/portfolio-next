@@ -2,7 +2,7 @@ import { SubHeading } from "./subHeading";
 
 export function JobExperience({ job }) {
   return (
-    <div>
+    <article>
       <div className="flex justify-between flex-col md:flex-row mb-3 md:mb-0">
         <SubHeading title={job.title} />
         {job.date && <div>({job.date})</div>}
@@ -17,12 +17,12 @@ export function JobExperience({ job }) {
               key={achievement}
               className="grid grid-cols-[minmax(0,max-content)_minmax(0,max-content)_1fr] gap-2"
             >
-              <div>-</div>
-              <div>{achievement}</div>
+              <span>-</span>
+              <span>{achievement}</span>
             </li>
           ))}
         </ul>
       )}
-    </div>
+    </article>
   );
 }

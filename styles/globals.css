@@ -17,4 +17,8 @@
     p {
         @apply mb-3;
     }
+
+    strong {
+        @apply font-normal;
+    }
 }
