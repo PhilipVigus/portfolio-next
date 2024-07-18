@@ -1,4 +1,5 @@
 import { MainHeading } from "../components/mainHeading";
+import React from "react";
 
 export default function Page() {
   return (
@@ -29,8 +30,16 @@ export default function Page() {
           skills required to be a developer, and seeing an application grow
           before my eyes really excites me. I am happiest when I&apos;m
           learning, and the constantly changing tech landscape means that there
-          will always be something new to understand.
+          will always be something new to understand. blah
         </p>
+        <a
+          href="/phil-vigus-cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-center"
+        >
+          <div className="text-center">[VIEW CV]</div>
+        </a>
       </section>
     </main>
   );

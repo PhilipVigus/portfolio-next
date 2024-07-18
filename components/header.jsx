@@ -7,7 +7,7 @@ const navItems = [
   { link: "/", label: "About" },
   { link: "/skills", label: "Skills" },
   { link: "/experience", label: "Experience" },
-  { link: "/contact", label: "Contact" },
+  { link: "/links", label: "Links" },
 ];
 
 export function Header() {
