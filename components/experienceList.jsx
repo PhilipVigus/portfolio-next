@@ -1,7 +1,6 @@
-import experience from "../data/experience.json";
-import JobExperience from "./jobExperience";
+import { JobExperience } from "./jobExperience";
 
-export default function ExperienceList() {
+export default function ExperienceList({ experience }) {
   return (
     <div className="flex flex-col gap-10">
       {experience.map((job) => (

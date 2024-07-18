@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <div className="min-h-screen leading-9 text-terminal-text bg-terminal-background text-shadow-custom text-terminal-small md:text-terminal-medium lg:text-terminal-large whitespace-pre-wrap break-words">
-          <div className="min-h-screen flex flex-col items-center justify-center p-10 md:p-20 lg:p-20 xl:p-60">
+          <div className="min-h-screen flex flex-col items-center justify-center p-10 md:p-20 lg:p-20 xl:p-60 xl:pt-20 xl:pb-20">
             <div className="w-full h-full flex flex-col box-border bg-transparent z-50">
               <GlareEffectOverlay />
               <InterlacedEffectOverlay />

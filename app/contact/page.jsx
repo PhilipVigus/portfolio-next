@@ -1,6 +1,6 @@
 import { MainHeading } from "../../components/mainHeading";
-import contacts from "../../data/contacts.json";
 import ContactsList from "../../components/contactsList";
+import contacts from "../../data/contacts";
 
 export default function Page() {
   return (
