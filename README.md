@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-!["Portfolio screenshot"](/home/phil/Code/portfolio-next/public/screenshot.png)
+!["Portfolio screenshot"](./screenshot.png)
 
 My professional portfolio.
 
