@@ -1,11 +1,11 @@
 import React from "react";
 import { describe, expect, it } from "vitest";
 import { render, screen } from "@testing-library/react";
-import ContactsList from "../../components/contactsList";
+import LinksList from "../../components/linksList";
 
-describe("ContactList component", function () {
-  it("renders the contact list", function () {
-    const contacts = [
+describe("LinkList component", function () {
+  it("renders the links list", function () {
+    const links = [
       {
         id: 0,
         label: "First Item",
@@ -18,17 +18,17 @@ describe("ContactList component", function () {
       },
     ];
 
-    render(<ContactsList contacts={contacts} />);
-    const links = screen.getAllByRole("link", {});
+    render(<LinksList links={links} />);
+    const renderedLinks = screen.getAllByRole("link", {});
 
-    contacts.forEach((contact, index) => {
-      expect(links[index].textContent).toEqual(`[${contact.label}]`);
-      expect(links[index].getAttribute("href")).toEqual(contact.link);
+    links.forEach((link, index) => {
+      expect(renderedLinks[index].textContent).toEqual(`[${link.label}]`);
+      expect(renderedLinks[index].getAttribute("href")).toEqual(link.link);
     });
   });
 
-  it("renders the spacer between contacts", function () {
-    const contacts = [
+  it("renders the spacer between links", function () {
+    const links = [
       {
         id: 0,
         label: "First Item",
@@ -41,9 +41,9 @@ describe("ContactList component", function () {
       },
     ];
 
-    render(<ContactsList contacts={contacts} />);
+    render(<LinksList links={links} />);
     const spacers = screen.getAllByText("-", {});
 
-    expect(spacers).toHaveLength(1);
+    expect(spacers).toHaveLength(links.length - 1);
   });
 });

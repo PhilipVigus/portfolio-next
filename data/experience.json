@@ -7,7 +7,7 @@
     "date": "Aug 2023 - Present",
     "description": "I am responsible for the development of the platform, including the backend, frontend and infrastructure. As part of the development team, I work closely with the product team to deliver new features and improvements to the platform. I also work with the operations team to ensure the platform is stable and scalable.",
     "achievements": [
-      "Leading the resolution of issues with the handling of times and dates across all applications and third party services.",
+      "Designing and implementing an organisation-wide date/time policy to resolve consistency issues and bugs in applications and third party services.",
       "Driving the development of key CI/CD pipelines to make them simpler, more reliable and faster to run.",
       "Played a key role in designing, planning and implementing the approach to migrating a legacy application to the current tech stack.",
       "Rewrote the majority of MVP backend code, making it more maintainable, scalable and production-ready."
