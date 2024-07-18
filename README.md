@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-!["Portfolio screenshot"](./screenshot.png)
+![Portfolio screenshot](./screenshot.png)
 
 My professional portfolio.
 
