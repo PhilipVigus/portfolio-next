@@ -2,18 +2,18 @@
   {
     "category": "Languages",
     "list": [
+      "Java",
       "TypeScript",
       "JavaScript",
-      "Java",
       "PHP"
     ]
   },
   {
     "category": "Frameworks",
     "list": [
+      "Spring Boot",
       "Next.js",
       "React",
-      "Spring Boot",
       "Laravel",
       "Vue 2"
     ]
@@ -22,8 +22,8 @@
     "category": "Databases",
     "list": [
       "PostgreSQL",
+      "MongoDB/DocumentDB",
       "Redis",
-      "MongoDB",
       "DynamoDB",
       "MySQL"
     ]
@@ -31,22 +31,25 @@
   {
     "category": "Testing",
     "list": [
-      "Vitest/Jest",
-      "React Testing Library",
       "JUnit",
       "Mockito",
+      "Vitest/Jest",
+      "React Testing Library",
       "PHPUnit"
     ]
   },
   {
     "category": "DevOps",
     "list": [
+      "AWS",
+      "Jenkins",
+      "Kubernetes/ArgoCD",
+      "Kafka",
       "Docker",
       "GCP",
       "Bitbucket Pipelines",
       "Github Actions",
-      "Terraform",
-      "AWS"
+      "Terraform"
     ]
   }
 ]

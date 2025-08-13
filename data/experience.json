@@ -1,11 +1,24 @@
 [
   {
     "id": 1,
+    "title": "Senior Java Developer",
+    "company": "Kambi - provides business-to-business services to the gambling industry.",
+    "location": "Sweden",
+    "date": "Mar 2025 - Present",
+    "description": "I work with a team responsible for a customer-facing, close to realtime API, which providees a range of information about the betting services they use. I also maintain and enhance the infrastructure it uses. I also liaise regularly with other teams who maintain systems we interface with.",
+    "achievements": [
+      "Developing key features that allow customers to easily access historical data that was previously unavailable.",
+      "Improving the CI/CD developer experience, introducing tools to work more easily with local test databases.",
+      "Working closely with one of the data teams to successfully trial a new process for self-service data product creation."
+    ]
+  },
+  {
+    "id": 2,
     "title": "Senior Full-Stack Developer",
     "company": "Allakando - provides a platform for tutoring and nannying services.",
     "location": "Sweden",
-    "date": "Aug 2023 - Present",
-    "description": "I am responsible for the development of the platform, including the backend, frontend and infrastructure. As part of the development team, I work closely with the product team to deliver new features and improvements to the platform. I also work with the operations team to ensure the platform is stable and scalable.",
+    "date": "Aug 2023 - Feb 2025",
+    "description": "I was responsible for the development of the platform, including the backend, frontend and infrastructure. As part of the development team, I worked closely with the product team to deliver new features and improvements to the platform. I also worked with the operations team to ensure the platform was stable and scalable.",
     "achievements": [
       "Designing and implementing an organisation-wide date/time policy to resolve consistency issues and bugs in applications and third party services.",
       "Driving the development of key CI/CD pipelines to make them simpler, more reliable and faster to run.",
@@ -14,7 +27,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Consultant Backend Developer",
     "company": "Devoteam Creative Tech - a consultancy that provides software development services to clients in a variety of industries.",
     "location": "Sweden",
@@ -28,7 +41,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Volunteer Backend Developer",
     "company": "The Climate App - a non-profit organisation that provides a platform for users to track their carbon footprint and take action to reduce it.",
     "location": "Remote",
@@ -36,7 +49,7 @@
     "description": "I worked as a volunteer on the project, developing the Spring Boot/PostgreSQL service used by the iOS and Android apps."
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Developer",
     "company": "Mumsnet - an extremely popular parenting website that provides a platform for parents to share advice and information.",
     "location": "UK",
@@ -49,7 +62,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Other relevant experience",
     "location": "UK",
     "date": "",

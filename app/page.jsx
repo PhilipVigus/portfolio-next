@@ -8,8 +8,8 @@ export default function Page() {
       <section>
         <p>
           My name is Phil Vigus and I&apos;m a software developer with a passion
-          for building great applications. I live in Sweden with my wife Su, and
-          currently work as a Senior Full-Stack Developer for Allakando.
+          for building great applications. I live in Stockholm with my wife Su, and
+          currently work as a Senior Java Developer for Kambi.
         </p>
         <p>
           After qualifying with a degree in Computer Science, I spent the early
