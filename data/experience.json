@@ -5,7 +5,7 @@
     "company": "Kambi - provides business-to-business services to the sports betting industry.",
     "location": "Sweden",
     "date": "Mar 2025 - Present",
-    "description": "I work with a team responsible for a customer-facing, close to realtime API, which providees a range of information about the betting services they use. I also maintain and enhance the infrastructure it uses, and liaise regularly with other teams who maintain systems we interface with.",
+    "description": "I work with a team responsible for a customer-facing, close to real time API, which provides a range of information about the betting services they use. I also maintain and enhance the infrastructure it uses, and liaise regularly with other teams who maintain systems we interface with.",
     "achievements": [
       "Developing key features that allow customers to easily access historical data that was previously unavailable.",
       "Improving the CI/CD developer experience, introducing tools to work more easily with local test databases.",
